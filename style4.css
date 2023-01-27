@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color:pink;
+    height: 70px;
+}
+nav{
+    width: 90vw;
+    margin-left: 5vw;
+}
+.head{
+    display: flex;
+}
+.anchor ul{
+    font-size: 25px;
+    display: flex;
+    margin-left: 350px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+ul li{
+    list-style-type: none;
+}
+.button{
+    width: 80px;
+    height: 35px;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    background-color: wheat;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.image{
+    margin-top: 20px;
+    display: flex;
+}
+.pic1 > img{
+    width: 450px;
+    height: 250px;
+    border: 2px solid yellowgreen;
+    padding: 10px;
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 1.5px yellowgreen;
+}
+.pic1{
+    display: flex;
+    flex-direction: column;
+}
+.pic2 > img{
+    width: 350px;
+    height: 250px;
+    border: 2px solid yellowgreen;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 1.5px yellowgreen;
+}
+.pic2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.pic3 > img{
+    width: 350px;
+    height: 250px;
+    border: 2px solid yellowgreen;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 1.5px yellowgreen;
+}
+.pic3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.pic1 > h2{
+    margin-left: 180px;
+}
+h2{
+    margin-top: 10px;
+    color: olive;
+}
+.pic2 > h2{
+    margin-left: 50px;
+}
+.pic3 > h2{
+    margin-left: 50px;
+}
